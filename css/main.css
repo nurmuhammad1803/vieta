@@ -38,7 +38,7 @@
   color: #2A6DED;
 }
 
-.header__nav .nav-btn {
+.nav-btn {
   background: #1D30E0;
   -webkit-box-shadow: 6px 10px 57px -13px #2A6DED;
           box-shadow: 6px 10px 57px -13px #2A6DED;
@@ -48,7 +48,7 @@
   outline: none;
 }
 
-.header__nav .nav-btn:hover {
+.nav-btn:hover {
   -webkit-box-shadow: 6px 10px 57px -2px #2A6DED;
           box-shadow: 6px 10px 57px -2px #2A6DED;
 }
@@ -262,5 +262,81 @@ h2 {
   height: 60px;
   color: #fff;
   margin-right: 15px;
+}
+
+.services h2 {
+  margin-bottom: 60px;
+}
+
+.services .nav-btn {
+  background: #3512d1;
+  display: block;
+  margin: 30px auto 0;
+}
+
+.services .__wrap .servic {
+  width: 350px;
+  padding: 20px;
+}
+
+.services .__wrap .servic:hover {
+  cursor: pointer;
+}
+
+.services .__wrap .servic:hover .__title i {
+  color: #fff;
+  background: #1D30E0;
+}
+
+.services .__wrap .servic:hover .fa-long-arrow-right {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.services .__wrap .servic .__title {
+  margin-bottom: 20px;
+}
+
+.services .__wrap .servic .__title h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1B1C23;
+  margin-left: 5px;
+}
+
+.services .__wrap .servic i {
+  font-size: 35px;
+  color: #1D30E0;
+  padding: 15px;
+}
+
+.services .__wrap .servic p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757683;
+}
+
+.get-start {
+  background: url(./../images/Bg.png) no-repeat center;
+}
+
+.get-start h2 {
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+.get-start p {
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+.get-start .nav-btn {
+  display: block;
+  margin-right: 0;
 }
 /*# sourceMappingURL=main.css.map */

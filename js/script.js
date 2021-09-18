@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
   $("#fullpage").fullpage({
-    sectionsColor: ['#fff', '#fff', '#fff']
+    sectionsColor: ['#fff', '#e97d7d', '#ffecb6', '#c1c8fb', '#1B1C23']
   });
 })
 1
@@ -10,6 +10,15 @@ jQuery(document).ready(function ($) {
 5
 jQuery(document).ready(function ($) {
   $("#fullpage").fullpage({
-    sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C']
+    sectionsColor: ['#fff', '#fff', '#c1c8fb']
   });
 })
+
+// new typeit
+new TypeIt("#simpleUsage", {
+  strings: ["Have Any Project in Mind?",
+    "Don’t Be Hesitate to Contact Us."
+  ],
+  speed: 50,
+  waitUntilVisible: true,
+}).go();
