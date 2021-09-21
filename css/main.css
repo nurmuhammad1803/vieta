@@ -339,4 +339,65 @@ h2 {
   display: block;
   margin-right: 0;
 }
+
+.footer .__top h2 {
+  margin: 20px 0;
+}
+
+.footer .__top p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #757683;
+}
+
+.footer .__top .smm__icons {
+  margin-top: 25px;
+}
+
+.footer .__top .smm__icons i {
+  font-size: 35px;
+  color: #1B1C23;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.footer .__top .smm__icons i:hover {
+  color: #1D30E0;
+}
+
+.footer .__bottom {
+  width: 100%;
+  padding: 40px 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer .__bottom .nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #1B1C23;
+  display: block;
+  margin: 0 27px;
+}
+
+.footer .__bottom .nav-link:hover {
+  color: #2A6DED;
+}
+
+.footer .__bottom .gmail {
+  cursor: pointer;
+}
+
+.footer .__bottom .gmail i {
+  display: inline-block;
+  margin-right: 10px;
+}
 /*# sourceMappingURL=main.css.map */

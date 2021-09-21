@@ -357,3 +357,63 @@ h2 {
     margin-right: 0;
   }
 }
+
+.footer {
+  .__top {
+    h2{
+      margin: 20px 0;
+    }
+    p {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 38px;
+      color: #757683;
+    }
+
+    .smm__icons {
+      margin-top: 25px;
+      i {
+        font-size: 35px;
+        color: #1B1C23;
+        display: inline-block;
+        margin: 0 10px;
+        cursor: pointer;
+        &:hover{
+          color: #1D30E0;
+        }
+      }
+    }
+  }
+
+  .__bottom {
+    width: 100%;
+    padding: 40px 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    .nav-link {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      color: $black;
+      display: block;
+      margin: 0 27px;
+
+      &:hover {
+        color: $blue2;
+      }
+    }
+    .gmail{
+      cursor: pointer;
+      i{
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+  }
+}
