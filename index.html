@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/option.css">
   <link rel="stylesheet" href="./css/fullpage.min.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/media.css">
   <title>Document</title>
 </head>
 
@@ -21,13 +22,15 @@
     <div class="header__nav">
       <div class="container">
         <nav class="d-flex aic jcb">
-          <a href="#" class="logo"><img src="./images/image 1.png" alt=""></a>
-          <button class="nav__toggler">
-            <i class="fal fa-bars"></i>
-          </button>
+          <div class="nav_responce d-flex aic">
+            <a href="#" class="logo"><img src="./images/image 1.png" alt=""></a>
+            <button class="nav__toggler">
+              <i class="fal fa-bars"></i>
+            </button>
+          </div>
           <div class="nav__collapse w-100 d-flex aic jcb">
             <ul class="d-flex aic m-auto">
-              <li><a href="#" class="nav-link underline">Start</a></li>
+              <li><a href="#start" class="nav-link underline">Start</a></li>
               <li><a href="#portfolio" class="nav-link underline">Portfolio</a></li>
               <li><a href="#clients" class="nav-link underline">Clients</a></li>
               <li><a href="#services" class="nav-link underline">Services</a></li>
@@ -58,8 +61,7 @@
             <div class="__left">
               <span class="pre-title d-flex aic">
                 UI/UX Designer & Developer</span>
-              <h1>We’re Creative
-                & Minimalist</h1>
+              <h1 id="PageTitle"></h1>
               <p class="text">Hi, I’m Sinthi. I’m UI/UX Designer. If you are looking for Designer to build your brands
                 and
                 grow your business Let’s shake hands with me.</p>
@@ -126,8 +128,7 @@
             <img src="./images/Illustrations.png" alt="">
           </div>
           <div class="__right">
-            <h2>From Big to Small Clients,
-              Two Things I Always Promise</h2>
+            <h2 id="sectSubTItle"></h2>
             <div class="design d-flex aic jcb">
               <div class="promise d-flex">
                 <span class="num">1</span>
@@ -225,7 +226,7 @@
         </button>
       </div>
     </section>
-    <section class="get-start section">
+    <section id="start" class="get-start section">
       <div class="container d-flex aic jcb">
         <div class="__left">
           <img src="./images/Image.png" alt="">
@@ -250,14 +251,15 @@
         </div>
       </div>
     </section>
-    <section class="footer section">
+    <section id="contact" class="footer section">
       <div class="container">
         <div class="footer__parts">
           <div class="__top d-flex fdrc aic jcc">
             <a href="#" class="logo"><img src="./images/image 1.png" alt=""></a>
             <div class="__textTitle tac d-flex fdrc">
               <h2>Lets Talk with Me!</h2>
-              <p class="text">I am always open to discuss your project, improve your online presence or help with your UX/UI design
+              <p class="text">I am always open to discuss your project, improve your online presence or help with your
+                UX/UI design
               </p>
             </div>
             <ul class="smm__icons">
