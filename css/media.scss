@@ -121,6 +121,38 @@
     width: 768px;
   }
 
+  .header__title {
+    margin-top: 50px;
+  }
+
+  .header__content {
+    flex-direction: column;
+
+    .__left {
+      width: 100%;
+      text-align: center;
+
+      .pre-title {
+        justify-content: center;
+
+        &::before {
+          content: '';
+          display: none;
+        }
+      }
+    }
+
+    .__right {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+
+      img {
+        width: 400px;
+      }
+    }
+  }
+
   // header responsive nav
   .header__nav {
     background: #fff;
@@ -161,6 +193,43 @@
           margin: 7px 0 !important;
         }
       }
+    }
+  }
+
+  .portfolio {
+    .project {
+      padding: 25px 15px 15px 15px;
+    }
+  }
+
+  .clients {
+    .clients__content {
+      flex-direction: column-reverse;
+
+      .__right {
+        width: 100%;
+        text-align: center;
+        .promise {
+          flex-direction: row !important;
+          margin: 35px 15px 25px 0;
+          text-align: start;
+        }
+      }
+
+      .__left {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+
+        img {
+          width: 400px;
+        }
+      }
+    }
+  }
+  .services{
+    .__wrap{
+      flex-direction: column;
     }
   }
 }
